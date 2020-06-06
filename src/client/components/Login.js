@@ -4,7 +4,6 @@ import {
   Text,
   TextInput,
 } from 'react-native';
-
 import {
   GoogleSignin,
   GoogleSigninButton,
@@ -13,7 +12,7 @@ import {
 
 import styles from '../styles/LoginStyles';
 
-const Login = () => {
+const Login = ({ navigation }) => {
   const [userInfo, setUserInfo] = useState();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -21,7 +20,7 @@ const Login = () => {
 
   useEffect(() => {
     GoogleSignin.configure({
-      webClientId: '826816749575-ghb3bfktonjsv2d05ug32ajsk8e07cvo.apps.googleusercontent.com',
+      webClientId: process.env.GOOGLE_WEB_CLIENT_ID,
       offlineAccess: true,
       forceCodeForRefreshToken: true,
       accountName: '',
@@ -36,6 +35,8 @@ const Login = () => {
       console.warn({userInfo: info});
 
       setUserInfo(info);
+
+      navigation.navigate('Main');
     } catch (error) {
       if (error.code === statusCodes.SIGN_IN_CANCELLED) {
         setErrorMessage('Sign in has been cancelled. Please try again.');

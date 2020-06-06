@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["transform-inline-environment-variables", {
+      "include": [
+        "NODE_ENV",
+        "GOOGLE_WEB_CLIENT_ID",
+        "TEST"
+      ]
+    }]
+  ]
+}
