@@ -21,6 +21,16 @@
 		2DCD954D1E0B4F2C00145EB5 /* recipeSuggesterAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* recipeSuggesterAppTests.m */; };
 		67B9420747406D21F282FEB5 /* libPods-recipeSuggesterApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB092496C8F42DE1C266ADB /* libPods-recipeSuggesterApp-tvOSTests.a */; };
 		D6FB2E39BA33CAD212CE3D2D /* libPods-recipeSuggesterApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63510482793900F5DE742681 /* libPods-recipeSuggesterApp-tvOS.a */; };
+		94C21F219AAA40C49F0647A8 /* Lemonada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49FE0E4A4FA94C8B8D71244C /* Lemonada-Bold.ttf */; };
+		94BF761E5464410EB39CFE23 /* Lemonada-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05327CC7538B4F72A69C385B /* Lemonada-Light.ttf */; };
+		98ED039312DA43508102A580 /* Lemonada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E156118147994715BF06DA6F /* Lemonada-Regular.ttf */; };
+		49902E8495D2411DA1E8A43E /* Lemonada-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9239646A0F1842AD8BE77A54 /* Lemonada-SemiBold.ttf */; };
+		3A5E7A4037B24C0BAB12065B /* Lemonada[wght].ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9375C4CE24349DCBEECD783 /* Lemonada[wght].ttf */; };
+		361965B627F3466E9CE5B55F /* NanumGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FA00C6EB0C4209B691CAB7 /* NanumGothic-Bold.ttf */; };
+		6D793F26C6FA42A1BEC511E5 /* NanumGothic-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A85327D3B0A44A1A6A7D5B0 /* NanumGothic-ExtraBold.ttf */; };
+		0A094EE57B264A1B8F329098 /* NanumGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C70C92320B14DECB657BC00 /* NanumGothic-Regular.ttf */; };
+		E33CA2F5A1A64B599A196D81 /* NanumGothicCoding-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53AB5253B5A94F1CBF776DE3 /* NanumGothicCoding-Bold.ttf */; };
+		E0091FDE7D4F43739BCB6838 /* NanumGothicCoding-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53AD516537994EA99FBD512A /* NanumGothicCoding-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +79,16 @@
 		E9CA5F028AE8903EBD6C3085 /* Pods-recipeSuggesterApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipeSuggesterApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-recipeSuggesterApp-tvOSTests/Pods-recipeSuggesterApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		49FE0E4A4FA94C8B8D71244C /* Lemonada-Bold.ttf */ = {isa = PBXFileReference; name = "Lemonada-Bold.ttf"; path = "../assets/fonts/Lemonada-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05327CC7538B4F72A69C385B /* Lemonada-Light.ttf */ = {isa = PBXFileReference; name = "Lemonada-Light.ttf"; path = "../assets/fonts/Lemonada-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E156118147994715BF06DA6F /* Lemonada-Regular.ttf */ = {isa = PBXFileReference; name = "Lemonada-Regular.ttf"; path = "../assets/fonts/Lemonada-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9239646A0F1842AD8BE77A54 /* Lemonada-SemiBold.ttf */ = {isa = PBXFileReference; name = "Lemonada-SemiBold.ttf"; path = "../assets/fonts/Lemonada-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9375C4CE24349DCBEECD783 /* Lemonada[wght].ttf */ = {isa = PBXFileReference; name = "Lemonada[wght].ttf"; path = "../assets/fonts/Lemonada[wght].ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8FA00C6EB0C4209B691CAB7 /* NanumGothic-Bold.ttf */ = {isa = PBXFileReference; name = "NanumGothic-Bold.ttf"; path = "../assets/fonts/NanumGothic-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A85327D3B0A44A1A6A7D5B0 /* NanumGothic-ExtraBold.ttf */ = {isa = PBXFileReference; name = "NanumGothic-ExtraBold.ttf"; path = "../assets/fonts/NanumGothic-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C70C92320B14DECB657BC00 /* NanumGothic-Regular.ttf */ = {isa = PBXFileReference; name = "NanumGothic-Regular.ttf"; path = "../assets/fonts/NanumGothic-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53AB5253B5A94F1CBF776DE3 /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; name = "NanumGothicCoding-Bold.ttf"; path = "../assets/fonts/NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53AD516537994EA99FBD512A /* NanumGothicCoding-Regular.ttf */ = {isa = PBXFileReference; name = "NanumGothicCoding-Regular.ttf"; path = "../assets/fonts/NanumGothicCoding-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +203,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				3F6366D7660CB80B6989833B /* Pods */,
+				FF884EC1406C449DA83D99AA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -199,6 +220,24 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		FF884EC1406C449DA83D99AA /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				49FE0E4A4FA94C8B8D71244C /* Lemonada-Bold.ttf */,
+				05327CC7538B4F72A69C385B /* Lemonada-Light.ttf */,
+				E156118147994715BF06DA6F /* Lemonada-Regular.ttf */,
+				9239646A0F1842AD8BE77A54 /* Lemonada-SemiBold.ttf */,
+				D9375C4CE24349DCBEECD783 /* Lemonada[wght].ttf */,
+				E8FA00C6EB0C4209B691CAB7 /* NanumGothic-Bold.ttf */,
+				3A85327D3B0A44A1A6A7D5B0 /* NanumGothic-ExtraBold.ttf */,
+				0C70C92320B14DECB657BC00 /* NanumGothic-Regular.ttf */,
+				53AB5253B5A94F1CBF776DE3 /* NanumGothicCoding-Bold.ttf */,
+				53AD516537994EA99FBD512A /* NanumGothicCoding-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -345,6 +384,16 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				28A804E5248BFF21004A90F0 /* GoogleService-Info.plist in Resources */,
+				94C21F219AAA40C49F0647A8 /* Lemonada-Bold.ttf in Resources */,
+				94BF761E5464410EB39CFE23 /* Lemonada-Light.ttf in Resources */,
+				98ED039312DA43508102A580 /* Lemonada-Regular.ttf in Resources */,
+				49902E8495D2411DA1E8A43E /* Lemonada-SemiBold.ttf in Resources */,
+				3A5E7A4037B24C0BAB12065B /* Lemonada[wght].ttf in Resources */,
+				361965B627F3466E9CE5B55F /* NanumGothic-Bold.ttf in Resources */,
+				6D793F26C6FA42A1BEC511E5 /* NanumGothic-ExtraBold.ttf in Resources */,
+				0A094EE57B264A1B8F329098 /* NanumGothic-Regular.ttf in Resources */,
+				E33CA2F5A1A64B599A196D81 /* NanumGothicCoding-Bold.ttf in Resources */,
+				E0091FDE7D4F43739BCB6838 /* NanumGothicCoding-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

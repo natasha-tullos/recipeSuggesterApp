@@ -3,6 +3,7 @@ import {
   View,
   Text,
   TextInput,
+  TouchableOpacity
 } from 'react-native';
 import {
   GoogleSignin,
@@ -51,8 +52,8 @@ const Login = ({ navigation }) => {
 
   return (
     <View>
-      <Text style={styles.loginText}>Login</Text>
       <View style={styles.loginContainer}>
+      <Text style={styles.title}>Macro Recipe Suggester</Text>
         <TextInput
           style={styles.textInput}
           onChangeText={(newText) => setEmail(newText)}
@@ -65,13 +66,16 @@ const Login = ({ navigation }) => {
           placeholder="Password"
           textContentType="password"
         />
+        <TouchableOpacity style={styles.btnContainer}>
+          <Text style={styles.loginText}>Login</Text>
+        </TouchableOpacity>
+      </View>
         <GoogleSigninButton 
           style={styles.googleButton}
           size={GoogleSigninButton.Size.Wide}
           color={GoogleSigninButton.Color.Dark}
           onPress={googleSignIn}
         />
-      </View>
       <Text style={styles.createAccountText}>
         Don't have an account? Sign up <Text style={styles.signUpSpan}>here</Text>
       </Text>
