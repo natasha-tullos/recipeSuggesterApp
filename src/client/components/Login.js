@@ -13,7 +13,7 @@ import {
 
 import styles from '../styles/LoginStyles';
 
-const Login = ({ navigation }) => {
+const Login = ({ navigation }, props) => {
   const [userInfo, setUserInfo] = useState();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -32,8 +32,6 @@ const Login = ({ navigation }) => {
     try {
       await GoogleSignin.hasPlayServices();
       const info = await GoogleSignin.signIn();
-
-      console.warn({userInfo: info});
 
       setUserInfo(info);
 

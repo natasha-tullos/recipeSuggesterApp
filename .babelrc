@@ -4,7 +4,7 @@
       "include": [
         "NODE_ENV",
         "GOOGLE_WEB_CLIENT_ID",
-        "TEST"
+        "SPOON_API_KEY",
       ]
     }]
   ]
