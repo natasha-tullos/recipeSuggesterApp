@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React, { useContext } from 'react';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
@@ -15,6 +7,7 @@ import { NavContextProvider, NavContext } from './src/client/contexts/Navigation
 import Login from './src/client/components/Login';
 import Main from './src/client/components/Main';
 import Recipes from './src/client/components/Recipes';
+import Recipe from './src/client/components/Recipe';
 
 const Stack = createStackNavigator();
 
@@ -38,6 +31,10 @@ const App = () => {
           <Stack.Screen
             name="Recipes"
             component={Recipes}
+          />
+          <Stack.Screen
+            name="Recipe"
+            component={Recipe}
           />
         </Stack.Navigator>
       </NavContextProvider>
