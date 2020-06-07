@@ -11,6 +11,7 @@ export default styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#ffe3e3',
     padding: 30,
+    marginTop: 50,
   },
   image: {
     width: 300,

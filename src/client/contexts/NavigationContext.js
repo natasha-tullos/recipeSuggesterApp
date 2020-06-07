@@ -7,7 +7,9 @@ const NavContextProvider = (props) => {
 
   return (
     <NavContext.Provider value={[isAuthenticated, setAuth]}>
-      {props.children}
+      {/* <NavContext.Consumer> */}
+        {props.children}
+      {/* </NavContext.Consumer> */}
     </NavContext.Provider>
   );
 }

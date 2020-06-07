@@ -13,8 +13,7 @@ import {
 
 import styles from '../styles/LoginStyles';
 
-const Login = ({ navigation }, props) => {
-  const [userInfo, setUserInfo] = useState();
+const Login = ({ navigation, route: { params } }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState();
@@ -33,7 +32,8 @@ const Login = ({ navigation }, props) => {
       await GoogleSignin.hasPlayServices();
       const info = await GoogleSignin.signIn();
 
-      setUserInfo(info);
+      params.setAuth(true)
+      params.setUser(info);
 
       navigation.navigate('Main');
     } catch (error) {
@@ -67,6 +67,7 @@ const Login = ({ navigation }, props) => {
         <TouchableOpacity style={styles.btnContainer}>
           <Text style={styles.loginText}>Login</Text>
         </TouchableOpacity>
+        <Text>{errorMessage}</Text>
       </View>
         <GoogleSigninButton 
           style={styles.googleButton}

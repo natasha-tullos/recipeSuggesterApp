@@ -47,4 +47,8 @@ export default styles = StyleSheet.create({
   signUpSpan: {
     color: '#1a73e8',
   },
+  errorMessage: {
+    color: '#eb2626',
+    marginTop: 10,
+  }
 });

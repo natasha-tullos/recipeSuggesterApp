@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -8,10 +8,14 @@ import {
 
 import styles from '../styles/MainStyles';
 
-const Main = ({ navigation }) => {
+const Main = ({ navigation, route }) => {
   const [protein, setProtein] = useState();
   const [fats, setFats] = useState();
   const [carbs, setCarbs] = useState();
+
+  useEffect(() => {
+    console.log(route.params, ' ROUTE')
+  }, [])
 
   const getRecipes = () => {
     fetch(
